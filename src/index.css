@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.album-container {
+  display: grid;
+  padding: 10px;
+}
+
+.album-container img {
+  width: 300px;
+  height: 300px;
+}
+
+.container__album-details {
+  display: grid;
+  grid-template-rows: repeat(auto, 4);
+  width: 300px;
+}
+
+.container__album-details img {
+  width: 300px;
+  height: 300px;
+}
